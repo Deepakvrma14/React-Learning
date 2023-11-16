@@ -2,13 +2,12 @@ import React from 'react'
 import { useState } from 'react';
 const Content = () => {
 
-    
+
     const [name, setName] = useState('john');
     const handleNameChange = () =>{
         const name  = ['John', 'Doe'];
         const int = Math.floor(Math.random()*3);
         setName(name[int]);
-
     }
     const handleClick = () =>{
         console.log('you clicked');
