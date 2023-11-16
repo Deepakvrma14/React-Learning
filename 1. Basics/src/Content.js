@@ -11,7 +11,6 @@ const Content = () => {
     }
     const handleClick = () =>{
         console.log('you clicked');
-
     }
     const handleClick2 = (name) =>{
         console.log(`hello ${name}`);
